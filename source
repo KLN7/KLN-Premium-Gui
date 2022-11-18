@@ -1,0 +1,125 @@
+-- Made By Kryxn|KLN
+-- Version: Premium
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local CarFly = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local GUI = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local CoolGui = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local infiniteyield = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Position = UDim2.new(0.241901994, 0, 0.320991844, 0)
+main.Size = UDim2.new(0, 502, 0, 305)
+main.Active = true
+main.Draggable = true
+
+UICorner.Parent = main
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(106, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 242))}
+UIGradient.Parent = main
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(82, 0, 97)
+TextLabel.Size = UDim2.new(0, 502, 0, 50)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "KLN Premium Scripts"
+TextLabel.TextColor3 = Color3.fromRGB(0, 255, 85)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_2.Parent = TextLabel
+
+Fly.Name = "Fly"
+Fly.Parent = main
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly.Position = UDim2.new(0.029880479, 0, 0.209836066, 0)
+Fly.Size = UDim2.new(0, 185, 0, 50)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 25.000
+Fly.TextWrapped = true
+Fly.MouseButton1Down:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+
+UICorner_3.Parent = Fly
+
+CarFly.Name = "CarFly"
+CarFly.Parent = main
+CarFly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CarFly.Position = UDim2.new(0.029880479, 0, 0.416393429, 0)
+CarFly.Size = UDim2.new(0, 185, 0, 50)
+CarFly.Font = Enum.Font.SourceSans
+CarFly.Text = "Car Fly"
+CarFly.TextColor3 = Color3.fromRGB(0, 0, 0)
+CarFly.TextSize = 25.000
+CarFly.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_4.Parent = CarFly
+
+GUI.Name = "GUI"
+GUI.Parent = main
+GUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GUI.Position = UDim2.new(0.029880479, 0, 0.616393447, 0)
+GUI.Size = UDim2.new(0, 185, 0, 50)
+GUI.Font = Enum.Font.SourceSans
+GUI.Text = "GUI"
+GUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+GUI.TextSize = 25.000
+GUI.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
+end)
+
+UICorner_5.Parent = GUI
+
+CoolGui.Name = "CoolGui"
+CoolGui.Parent = main
+CoolGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CoolGui.Position = UDim2.new(0.593625426, 0, 0.209836081, 0)
+CoolGui.Size = UDim2.new(0, 179, 0, 50)
+CoolGui.Font = Enum.Font.SourceSans
+CoolGui.Text = "C00lGui"
+CoolGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+CoolGui.TextSize = 25.000
+CoolGui.MouseButton1Down:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)()
+end)
+
+UICorner_6.Parent = CoolGui
+
+infiniteyield.Name = "infiniteyield"
+infiniteyield.Parent = main
+infiniteyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield.Position = UDim2.new(0.593625486, 0, 0.416393429, 0)
+infiniteyield.Size = UDim2.new(0, 179, 0, 50)
+infiniteyield.Font = Enum.Font.SourceSans
+infiniteyield.Text = "Infinite Yield"
+infiniteyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infiniteyield.TextSize = 25.000
+infiniteyield.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_7.Parent = infiniteyield
